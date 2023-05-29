@@ -1,0 +1,5 @@
+Step-1: Run the LoadRawDataCleanAccident,LoadRawDataCleanCasualty,LoadRawDataCleanVehicle scripts to populate csv data into table.
+Step-2: Run the ClassRelationModel.sql relatioal script to create the tables.
+Step-3: Run the data cleaning script Raw_Data_Clean_Script.sql on raw data by running commands in it.
+Step-4: Run the data population script for filling the profile data Profile_Data_Populate.sql.
+Step-5: Run the data populate script to  fill the data  into relational tables running DataPopulate.sql
